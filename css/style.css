@@ -40,13 +40,13 @@ nav {
 }
 
 #sobre {
-  margin-top: -25px;        /* Size of fixed header */
+  margin-top: -25px;
   padding-bottom: 50px;
   display: block;
 }
 
 .conteudo span {
-  margin-top: -20px;        /* Size of fixed header */
+  margin-top: -20px;
   padding-bottom: 40px;
   display: block;
 }
@@ -156,50 +156,12 @@ p {
 }
 
 p .titulacao {
-  font-family: 'Yantramanav', sans-serif;
   font-size: 20px;
 }
 
 .apresentacao {
   text-align: justify;
   width: 75%;
-}
-
-.line {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  position: relative;
-  top: 10%;
-  width: 6em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,0.75);
-  font-size: 100%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-}
-
-/* Animation */
-.anim-typewriter {
-  animation: typewriter 3s steps(30) 1s 1 normal both,
-  blinkTextCursor 500ms steps(30) infinite normal;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  } to {
-    width: 6em;
-  }
-}
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255,255,255,0.75);
-  } to {
-    border-right-color: transparent;
-  }
 }
 
 @media (max-width: 580px) {
