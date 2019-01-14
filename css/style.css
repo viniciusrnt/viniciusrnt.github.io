@@ -28,7 +28,7 @@ nav {
   padding-bottom: 40px;
   padding-left: 40px;
   background: url(../img/BackgroundSobre.jpg);
-  background-size: auto;
+  background-size: cover;
   background-position: center;
 }
 
