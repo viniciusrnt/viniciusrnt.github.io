@@ -164,10 +164,18 @@ p .titulacao {
   width: 75%;
 }
 
+.definicao {
+  text-align: justify;
+}
+
 @media (max-width: 580px) {
   nav ul {
     max-height: 0px;
     background: #fff;
+  }
+
+  .definicao {
+    width: 95%;
   }
 
   h1 {
