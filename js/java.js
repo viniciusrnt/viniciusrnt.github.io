@@ -5,6 +5,7 @@ $(document).ready(function() {
       });
 
       $("a").on('click', function(event) {
+        $("nav ul").toggleClass("showing");
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {

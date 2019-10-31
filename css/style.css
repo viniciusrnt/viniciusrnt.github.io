@@ -178,6 +178,10 @@ p .titulacao {
     width: 95%;
   }
 
+  .apresentacao {
+    width: 95%;
+  }
+
   h1 {
     font-family: 'Yantramanav', sans-serif;
     font-weight: lighter;
