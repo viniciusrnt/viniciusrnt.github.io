@@ -5,218 +5,33 @@ html, body {
 }
 
 body {
-  background: url(../img/background.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-nav {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 950;
+h1 {
+  font-family: 'Satisfy', serif;
+  font-size: 42px;
 }
 
-.conteudo {
-  z-index: 900;
-  padding-top: 20px;
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
-.sobre {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
-  background: url(../img/BackgroundSobre.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.projetos {
-  padding-top: 80px;
-  padding-left: 40px;
-  background: url(../img/background.jpg);
-  background-size: cover;
-}
-
-#sobre {
-  margin-top: -25px;
-  padding-bottom: 50px;
-  display: block;
-}
-
-.conteudo span {
-  margin-top: -20px;
-  padding-bottom: 40px;
-  display: block;
-}
-
-.menu-icon {
-  width: 100%;
-  background: #fff;
-  text-align: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
-  cursor: pointer;
-  color: #000;
-  display: none;
-}
-
-.dev-icon {
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.dev-icon:hover {
-  cursor: pointer;
-}
-
-nav, ul, li {
-  list-style: none;
-  background: #fff;
-  overflow: hidden;
-  color: #000;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  transition: 1s;
-}
-
-nav.black ul {
-  background: #000;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 20px;
-}
-
-nav ul li a {
+a {
   text-decoration: none !important;
-  color: #000;
+  color: #fff;
+  background-color: #014F74;
+  padding: 13px 20px;
+  border-radius: 10px;
   font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'Yantramanav', sans-serif;
+  display: inline-block;
 }
 
 a:hover {
   text-decoration: none !important;
-}
-
-.social {
-  padding-left: 18px;
-  font-size: 22px;
-}
-
-#parte01 {
-  padding: 100px;
-}
-
-#parte02 {
-  padding-top: 25px;
-  background-size: cover;
-}
-
-h1 {
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: 100;
-  font-size: 80px;
-  letter-spacing: 10px;
-}
-
-h2 {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 80px;
-  line-height: 34px;
-  letter-spacing: 7px;
-}
-
-h4 {
-  padding-top: 8px;
-  padding-bottom: 10px;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 28px;
-  text-transform: uppercase;
-}
-
-h4 .icone {
-  font-size: 20px;
-}
-
-h5 {
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: lighter;
-  font-size: 60px;
-  letter-spacing: 5px;
-}
-
-p {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 15px;
-}
-
-p .titulacao {
-  font-size: 20px;
-}
-
-.apresentacao {
-  text-align: justify;
-  width: 75%;
-}
-
-.definicao {
-  text-align: justify;
-}
-
-@media (max-width: 580px) {
-  nav ul {
-    max-height: 0px;
-    background: #fff;
-  }
-
-  .definicao {
-    width: 95%;
-  }
-
-  .apresentacao {
-    width: 95%;
-  }
-
-  h1 {
-    font-family: 'Yantramanav', sans-serif;
-    font-weight: lighter;
-    font-size: 60px;
-    letter-spacing: 10px;
-  }
-
-  h2 {
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 60px;
-    line-height: 34px;
-    letter-spacing: 7px;
-  }
-
-  nav.black ul {
-    background: #fff;
-  }
-
-  .showing {
-    max-height: 20em;
-  }
-
-  nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 12px;
-    text-align: center;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  #icone {
-    width: 250px;
-  }
-
+  color: #fff;
+  background-color: #003148;
 }
